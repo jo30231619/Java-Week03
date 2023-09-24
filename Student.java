@@ -17,4 +17,17 @@ public class Student {
 		   }
 		   System.out.println();
 	   }
+	   
+		
+		String[] cars = new String[5];
+			
+			cars[0] = "Nissan";
+			cars[1] = "Honda";
+			cars[2] = "Mercedes Benz";
+			cars[3] = "Hundai";
+			cars[4] = "Toyota";
+				
+			for (String car : cars) {
+				System.out.println("Model: " + car);
+			}
 }
